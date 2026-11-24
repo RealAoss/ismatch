@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ismatch"
+version = "0.1.0"
+description = "Match Arabic names across spellings and scripts (محمد = Mohammed = Muhammad = מוחמד). Zero dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = [
+  "arabic", "names", "name-matching", "fuzzy-matching", "transliteration",
+  "record-linkage", "deduplication", "entity-resolution", "phonetic", "hebrew",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: Arabic",
+  "Programming Language :: Python :: 3",
+  "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+ismatch = "ismatch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
