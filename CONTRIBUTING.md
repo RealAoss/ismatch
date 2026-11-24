@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping. No setup is needed beyond Python 3.9+; the project has
+Thank you for helping. No setup is needed beyond Python 3.10+; the project has
 no dependencies.
 
 ```bash

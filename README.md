@@ -130,7 +130,7 @@ cross-script duplicates, all found).
 pip install git+https://github.com/RealAoss/ismatch
 ```
 
-or clone the repository and run `pip install .`. Python 3.9+.
+or clone the repository and run `pip install .`. Python 3.10+.
 
 ## Usage
 
