@@ -5,6 +5,8 @@
 
 Pure Python, zero dependencies, works offline. [العربية](README.ar.md)
 
+[Try the live demo](https://realaoss.github.io/ismatch/demo/) and see which parts of the names match.
+
 ```python
 >>> import ismatch
 >>> ismatch.is_match("محمد عبد الرحمن الخطيب", "Dr. Mohamed Abdelrahman Al-Khatib")
